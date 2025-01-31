@@ -20,7 +20,7 @@ export const configFields = [
 		width: 12,
 		label: 'Proxies',
 		value:
-			"Enter proxy config below",
+			"Enter proxy config below (e.g. http://localhost:8080)",
 	},
 	{
 		type: 'textinput',

@@ -97,7 +97,7 @@ class GenericHttpInstance extends InstanceBase {
 			}
 		}
 
-		if(this.config.proxyAddress && this.config.proxyAddress.length > 0) {
+		if (this.config.proxyAddress && this.config.proxyAddress.length > 0) {
 			options.agent = {
 				http: new HttpProxyAgent({
 					proxy: this.config.proxyAddress
